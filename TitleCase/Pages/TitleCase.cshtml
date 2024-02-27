@@ -1,0 +1,23 @@
+﻿@page
+@model TitleCase.Pages.TitleCaseModel
+@{
+}
+<div class="card m-5 p-5 alert-primary">
+
+    <form action="/titlecase" method="post" asp-antiforgery="true" class="form">
+        <h4>Enter Text</h4>
+        <input class="form-control" name="input" type="text" required/>
+        <input type="submit" value="Submit" class="form-control btn btn-primary mt-2">
+    </form>
+    <br />
+
+    @if (@Model.input != string.Empty)
+    {
+        <div>
+            <h2>Title Case</h2>
+            <h3 class="alert-warning">@Model.output</h3>
+        </div>
+    }
+</div>
+
+
