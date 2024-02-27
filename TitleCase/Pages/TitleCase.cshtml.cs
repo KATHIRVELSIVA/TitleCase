@@ -6,10 +6,6 @@ namespace TitleCase.Pages
 {
     public class TitleCaseModel : PageModel
     {
-        public void OnGet()
-        {
-        }
-
 
         //a letter taken as input
         [BindProperty]
@@ -20,9 +16,9 @@ namespace TitleCase.Pages
 
 
         //a post method will invoke when the form is submitted
-        public void OnPost()
+        public void OnPost(string input)
         {
-            TestMe testme = new TestMe();
+            TestMe testme = new();
             string title = testme.makeTitle(input);
             output = title;
         }
