@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "8uF1PGmyHEn5zm8s/zDK5e5Cts1tPfv3Sy29HTIrnv9nqYWlJatvYF5NnJ3SKVJzOtj4kxkeAWCH3+oHtyXAiA==",
+  "dgSpecHash": "M5s7xBk/+uUh4Kd3Fg0Y9NLjX4gyxJD3iFxtFbmoIvn2qYo143k+c/vcs78ict7dYtvWq2Y2Or14nFAn0E5ktQ==",
   "success": true,
   "projectFilePath": "D:\\SKV\\Codes\\Jenkins\\26022024\\Jenkins\\TitleCase\\TitleCase\\TitleCase.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\kathirvel.selvam\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.5\\microsoft.visualstudio.azure.containers.tools.targets.1.19.5.nupkg.sha512"
+  ],
   "logs": []
 }

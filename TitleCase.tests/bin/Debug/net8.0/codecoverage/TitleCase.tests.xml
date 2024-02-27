@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="0" name="TitleCase.tests.dll" fullname="D:\SKV\Codes\Jenkins\26022024\Jenkins\TitleCase\TitleCase.tests\bin\Debug\net8.0\TitleCase.tests.dll" runstate="Runnable" testcasecount="3" result="Passed" total="3" passed="3" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="2" engine-version="3.13.2.0" clr-version="8.0.0" start-time="2024-02-27 09:11:11Z" end-time="2024-02-27 09:11:11Z" duration="0.069797">
+  <command-line><![CDATA[D:\SKV\Codes\Jenkins\26022024\Jenkins\TitleCase\TitleCase.tests\bin\Debug\net8.0\testhost.dll --port 50755 --endpoint 127.0.0.1:050755 --role client --parentprocessid 18156 --telemetryoptedin false]]></command-line>
+  <test-suite type="Assembly" id="0-1004" name="TitleCase.tests.dll" fullname="D:/SKV/Codes/Jenkins/26022024/Jenkins/TitleCase/TitleCase.tests/bin/Debug/net8.0/TitleCase.tests.dll" runstate="Runnable" testcasecount="3" result="Passed" start-time="2024-02-27T09:11:11.2720820Z" end-time="2024-02-27T09:11:11.3265446Z" duration="0.054429" total="3" passed="3" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="2">
+    <environment framework-version="3.13.3.0" clr-version="8.0.0" os-version="Microsoft Windows 10.0.19045" platform="Win32NT" cwd="D:\SKV\Codes\Jenkins\26022024\Jenkins\TitleCase\TitleCase.tests\bin\Debug\net8.0" machine-name="RLP2121" user="kathirvel.selvam" user-domain="OFS1" culture="en-US" uiculture="en-US" os-architecture="x64" />
+    <settings>
+      <setting name="SynchronousEvents" value="False" />
+      <setting name="RandomSeed" value="2068480483" />
+      <setting name="SkipNonTestAssemblies" value="True" />
+      <setting name="ProcessModel" value="InProcess" />
+      <setting name="DomainUsage" value="Single" />
+      <setting name="DefaultTestNamePattern" value="{m}{a}" />
+      <setting name="WorkDirectory" value="D:\SKV\Codes\Jenkins\26022024\Jenkins\TitleCase\TitleCase.tests\bin\Debug\net8.0" />
+      <setting name="NumberOfTestWorkers" value="8" />
+    </settings>
+    <properties>
+      <property name="_PID" value="15852" />
+      <property name="_APPDOMAIN" value="testhost" />
+    </properties>
+    <test-suite type="TestSuite" id="0-1005" name="TitleCase" fullname="TitleCase" runstate="Runnable" testcasecount="3" result="Passed" start-time="2024-02-27T09:11:11.2760803Z" end-time="2024-02-27T09:11:11.3265385Z" duration="0.050457" total="3" passed="3" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="2">
+      <test-suite type="TestSuite" id="0-1006" name="tests" fullname="TitleCase.tests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2024-02-27T09:11:11.2763856Z" end-time="2024-02-27T09:11:11.3265265Z" duration="0.050141" total="3" passed="3" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="2">
+        <test-suite type="TestFixture" id="0-1000" name="Tests" fullname="TitleCase.tests.Tests" classname="TitleCase.tests.Tests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2024-02-27T09:11:11.2772601Z" end-time="2024-02-27T09:11:11.3261401Z" duration="0.048880" total="3" passed="3" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="2">
+          <test-case id="0-1002" name="CheckCorrectValue" fullname="TitleCase.tests.Tests.CheckCorrectValue" methodname="CheckCorrectValue" classname="TitleCase.tests.Tests" runstate="Runnable" seed="1651236297" result="Passed" start-time="2024-02-27T09:11:11.2838574Z" end-time="2024-02-27T09:11:11.2927683Z" duration="0.008982" asserts="1">
+            <output><![CDATA[Hello World
+]]></output>
+          </test-case>
+          <test-case id="0-1003" name="CheckWrongValue" fullname="TitleCase.tests.Tests.CheckWrongValue" methodname="CheckWrongValue" classname="TitleCase.tests.Tests" runstate="Runnable" seed="1253521833" result="Passed" start-time="2024-02-27T09:11:11.2943075Z" end-time="2024-02-27T09:11:11.2972820Z" duration="0.002974" asserts="1">
+            <output><![CDATA[Hello World
+]]></output>
+          </test-case>
+          <test-case id="0-1001" name="Test1" fullname="TitleCase.tests.Tests.Test1" methodname="Test1" classname="TitleCase.tests.Tests" runstate="Runnable" seed="919194961" result="Passed" start-time="2024-02-27T09:11:11.2973339Z" end-time="2024-02-27T09:11:11.3251979Z" duration="0.027865" asserts="0" />
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
