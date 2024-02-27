@@ -22,7 +22,6 @@ namespace TitleCase.Pages
         //a post method will invoke when the form is submitted
         public void OnPost()
         {
-            input = input;
             TestMe testme = new TestMe();
             string title = testme.makeTitle(input);
             output = title;
